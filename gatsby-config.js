@@ -12,6 +12,13 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     "gatsby-plugin-styled-components",
     {
       resolve: `gatsby-plugin-canonical-urls`,
@@ -19,7 +26,6 @@ module.exports = {
         siteUrl: config.url,
       },
     },
-    "gatsby-source-graphql",
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
@@ -34,11 +40,14 @@ module.exports = {
         head: true,
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.defaultTitle,
-        short_name: "starter",
+        short_name: "YourDevGuy",
         start_url: "/",
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
