@@ -1,13 +1,14 @@
 import React, { useContext } from "react"
 import { Link } from "gatsby"
 import { ThemeContext } from "providers/ThemeProvider"
-import { Container } from "components/common"
+import { Container, ScheduleCallBtn } from "components/common"
 import NavbarLinks from "../NavbarLinks"
 import { Wrapper, Brand } from "./styles"
 import { Logo } from "../Logo"
 
 const Navbar = () => {
   const { theme } = useContext(ThemeContext)
+  const myUrl = "https://calendly.com/mike_haslam"
 
   return (
     <Wrapper as={Container}>
@@ -15,6 +16,7 @@ const Navbar = () => {
         <Logo />
       </Brand>
       <NavbarLinks desktop />
+      <ScheduleCallBtn url={myUrl} />
     </Wrapper>
   )
 }

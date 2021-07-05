@@ -1,9 +1,10 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const Button = styled.button`
   cursor: pointer;
   border-radius: 3px;
-  padding: 0.7rem 2.5rem;
+  padding: 10px 20px;
+  /* padding: 0.7rem 2.5rem; */
   border: none;
   -webkit-appearance: none;
   -webkit-touch-callout: none;
@@ -13,7 +14,7 @@ export const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #0074d9;
+  background: #2d65ac;
 
   &:focus {
     outline: none;
@@ -26,6 +27,22 @@ export const Button = styled.button`
   ${({ secondary }) =>
     secondary &&
     `
-		background: #001F3F;
+    left: 556px;
+    top: 43px;
+    color: #2D65AC;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    background: #FFFFFF;
+    border: 1px solid #2D65AC;
+    box-sizing: border-box;
+    border-radius: 4px;
 	`}
-`;
+
+  ${({ hidden }) =>
+    hidden &&
+    `
+    display:none;
+  `}
+`
