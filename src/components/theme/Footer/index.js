@@ -13,8 +13,8 @@ export const Footer = () => (
             💖
           </span>{" "}
           by{" "}
-          <a href="https://smakosh.com/?ref=portfolio-dev" rel="noopener noreferrer" target="_blank">
-            Smakosh
+          <a href="https://www.linkedin.com/in/ongo-mobile/" rel="noopener noreferrer" target="_blank">
+            Mike Haslam
           </a>
         </span>
       </Details>
