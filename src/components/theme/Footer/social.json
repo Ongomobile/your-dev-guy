@@ -16,5 +16,11 @@
     "name": "Twitter",
     "link": "https://twitter.com//mhdevguy",
     "icon": "/icons/twitter.svg"
+  },
+  {
+    "id": 3,
+    "name": "medium",
+    "link": "https://ongomobile.medium.com/",
+    "icon": "/icons/medium-icon.png"
   }
 ]

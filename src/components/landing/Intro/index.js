@@ -2,25 +2,25 @@ import React, { useContext } from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import { ThemeContext } from "providers/ThemeProvider"
 import { Header } from "components/theme"
-import { Container, Button } from "components/common"
+import { Container, Button, ScheduleCallBtn } from "components/common"
 import buildApp from "assets/illustrations/buildApp.png"
 import { Wrapper, IntroWrapper, Details, Thumbnail, CtaBtnsWrapper } from "./styles"
 
 export const Intro = () => {
   const { theme } = useContext(ThemeContext)
-
+  const myUrl = "https://calendly.com/mike_haslam"
   return (
     <Wrapper>
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Frontend Developer</h1>
-          <h2>That can help you launch projects faster so customers engage sooner.</h2>
+          <h2>That can help you launch projects faster, so customers engage sooner.</h2>
           <CtaBtnsWrapper>
             <Button as={AnchorLink} href="#about">
               Learn more
             </Button>
-            <Button secondary>Schedule a call</Button>
+            <ScheduleCallBtn url={myUrl} />
           </CtaBtnsWrapper>
         </Details>
         <Thumbnail>
