@@ -5,6 +5,7 @@
 
 .projectCard {
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 30px rgba(45, 101, 172, 0.2);
 }
@@ -17,4 +18,10 @@
   padding: 0;
   background-color: white;
   border: none;
+}
+
+@media (max-width: 1024px) {
+  .accordian {
+    width: 340px;
+  }
 }

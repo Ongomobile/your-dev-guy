@@ -1,7 +1,11 @@
 import styled from "styled-components"
 
-export const Wrapper = styled.div`
-  padding: 2rem 0;
+export const Wrapper = styled.div``
+export const ProjectsWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 980px;
 `
 export const ProjectTitle = styled.h3`
   font-size: 23px;
@@ -9,6 +13,14 @@ export const ProjectTitle = styled.h3`
   color: #2a3037;
   margin-top: 10px;
   text-align: center;
+
+  @media (max-width: 1024px) {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
 `
 export const ViewBtnWrapper = styled.div`
   display: flex;
@@ -16,6 +28,11 @@ export const ViewBtnWrapper = styled.div`
   justify-content: space-between;
   height: 45px;
   margin-top: 10px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
 `
 export const ViewBtn = styled.a`
   display: flex;
@@ -25,6 +42,15 @@ export const ViewBtn = styled.a`
   width: 160px;
   background-color: #2d65ac;
   border-radius: 4px;
+
+  @media (max-width: 1024px) {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 `
 
 export const BtnImg = styled.img`
@@ -43,4 +69,8 @@ export const ProjectText = styled.p`
   color: #2a3037;
   font-weight: 400;
   opacity: 0.8;
+
+  @media (max-width: 1024px) {
+    font-size: 15px;
+  }
 `

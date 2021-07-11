@@ -6,5 +6,45 @@
     "codeUrl": "https://github.com/Ongomobile/window-counter-landing-page",
     "siteUrl": "https://www.windowcleaningestimator.com/",
     "projectText": "Window Counter is an app I built with SwiftUI & React Native. It makes estimating easier for window cleaners. Since my first version I have had over 2000 downloads."
+  },
+  {
+    "id": 2,
+    "title": "Namjai React Firebase Web App",
+    "img": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626024228/Namjai-cropped_qgjord.png",
+    "codeUrl": "https://github.com/Ongomobile/get-mentor-app",
+    "siteUrl": "https://www.namjai.io/",
+    "projectText": "Namjai is a side project. Styled by hand using Styled Components. I used Firebase for authentication and storage. A friend challenged me to create the design in React."
+  },
+  {
+    "id": 3,
+    "title": "Groovy Hats Shopify Store",
+    "img": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626033324/groovyHats_ce5qgf.png",
+    "codeUrl": "https://github.com/Ongomobile/gatsby-shopify-starter-1",
+    "siteUrl": "https://jolly-chandrasekhar-37848e.netlify.app/",
+    "projectText": "Groovy Hats is a Headless Shopify Store. It’s built with React and Gatsby. It utilizes the Shopify GraphQL API. This is my first store of many. Shopify is such a pleasure to work with."
+  },
+  {
+    "id": 4,
+    "title": "Window Cleaning Landing Page",
+    "img": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626031113/LBWW-1580_gzbser.png",
+    "codeUrl": "https://github.com/Ongomobile/lbww",
+    "siteUrl": "https://longbeachwindowwashing.com/",
+    "projectText": "Long Beach Window Washing landing page built in Webflow. Solves a problem for home owners, by helping them quickly get a price and schedule a window cleaning service. "
+  },
+  {
+    "id": 5,
+    "title": "Thailand Explorer Single Page App",
+    "img": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626039847/ThaiExplorer_dyol1m.png",
+    "codeUrl": "https://github.com/Ongomobile/thailand-explorer",
+    "siteUrl": "https://www.thailandexplorer.org/",
+    "projectText": "Thailand Explorer is my first single page app. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location APIthat generates a random location and data. "
+  },
+  {
+    "id": 6,
+    "title": "Oceanfront Hacienda Webflow Site",
+    "img": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626028814/Hacienda_f4p05i.png",
+    "codeUrl": "https://github.com/Ongomobile/",
+    "siteUrl": "https://www.oceanfronthacienda.com/",
+    "projectText": "Oceanfront Hacienda is a direct booking website for a vacation rental. It’s built in Webflow with a third party booking engine. The design was created by empathizing with guest experiences."
   }
 ]
