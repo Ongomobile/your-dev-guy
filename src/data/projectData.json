@@ -37,7 +37,7 @@
     "img": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626039847/ThaiExplorer_dyol1m.png",
     "codeUrl": "https://github.com/Ongomobile/thailand-explorer",
     "siteUrl": "https://www.thailandexplorer.org/",
-    "projectText": "Thailand Explorer is my first single page app. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location APIthat generates a random location and data. "
+    "projectText": "Thailand Explorer is my first single page app. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location API that generates a random location and data. "
   },
   {
     "id": 6,

@@ -1,6 +1,7 @@
 import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
+import "./styles.css"
 
 export const Logo = () => {
   const data = useStaticQuery(graphql`
@@ -13,5 +14,5 @@ export const Logo = () => {
     }
   `)
   const image = getImage(data.file.childImageSharp.gatsbyImageData)
-  return <GatsbyImage image={image} alt="Your Dev Guy Logo" />
+  return <GatsbyImage className="bounce-in-right" image={image} alt="Your Dev Guy Logo" />
 }

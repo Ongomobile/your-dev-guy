@@ -17,7 +17,7 @@ export const Intro = () => {
           <h1>Developer Handyman</h1>
           <h2>That can help you launch projects faster, so customers engage sooner.</h2>
           <CtaBtnsWrapper>
-            <Button as={AnchorLink} href="#about">
+            <Button secondary as={AnchorLink} href="#about">
               Learn more
             </Button>
             <ScheduleCallBtn url={myUrl} />

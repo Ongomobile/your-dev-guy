@@ -1,13 +1,13 @@
 .image-style {
   border-radius: 8px;
-  box-shadow: 0px 4px 30px rgba(45, 101, 172, 0.2);
+  box-shadow: 0px 3px 15px rgba(3, 3, 3, 0.2);
 }
 
 .projectCard {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0px 4px 30px rgba(45, 101, 172, 0.2);
+  box-shadow: 0px 4px 15px rgba(45, 101, 172, 0.15);
 }
 .accordian {
   margin: 0;

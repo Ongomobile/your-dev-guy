@@ -42,6 +42,11 @@ export const ViewBtn = styled.a`
   width: 160px;
   background-color: #2d65ac;
   border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 
   @media (max-width: 1024px) {
     width: 300px;

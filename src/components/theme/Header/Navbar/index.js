@@ -9,6 +9,7 @@ import { Logo } from "../Logo"
 const Navbar = () => {
   const { theme } = useContext(ThemeContext)
   const myUrl = "https://calendly.com/mike_haslam"
+  const wobble = true
 
   return (
     <Wrapper as={Container}>
@@ -16,7 +17,7 @@ const Navbar = () => {
         <Logo />
       </Brand>
       <NavbarLinks desktop />
-      <ScheduleCallBtn url={myUrl} />
+      <ScheduleCallBtn wobble={wobble} url={myUrl} />
     </Wrapper>
   )
 }
