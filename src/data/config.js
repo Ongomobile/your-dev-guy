@@ -12,8 +12,8 @@ module.exports = {
     instagram: "https://instagram.com/yourdevguy",
   },
   googleAnalyticsID: "257629265",
-  themeColor: "#6b63ff",
-  backgroundColor: "#6b63ff",
+  themeColor: "#2D65AC",
+  backgroundColor: "#2D65AC",
   social: {
     facebook: "appId",
     twitter: "@mhdevguy",
