@@ -34,7 +34,7 @@ export const Button = styled.button`
   ${({ wobble }) =>
     wobble &&
     `
-    animation: wobble 5s ease-in-out;
+    animation: wobble 10s ease-in-out;
     @keyframes wobble {
       0% { transform: translateX(0%); }
       15% { transform: translateX(-25%) rotate(-5deg); }

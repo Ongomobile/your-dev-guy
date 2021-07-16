@@ -1,11 +1,25 @@
 import styled from "styled-components"
 
 export const Wrapper = styled.div``
+
+export const ProjectHeadline = styled.h2`
+  font-size: 35px;
+  font-weight: 600;
+  color: rgba(42, 48, 55, 0.8);
+
+  @media (max-width: 540px) {
+    font-size: 25px;
+  }
+`
 export const ProjectsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 980px;
+
+  @media (max-width: 540px) {
+    justify-content: center;
+  }
 `
 export const ProjectTitle = styled.h3`
   font-size: 23px;

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "num": "STEP 1",
+    "icon": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626381540/call-schedule_mwdqgw.svg",
+    "title": "Strategy",
+    "copy": "Discover the core challenges and goals for the project. Determine what objectives are needed to achieve the goals for the project. Determine what the key metrics will be for measuring the success of the project.",
+    "altText": "stragety icon"
+  },
+  {
+    "id": 2,
+    "num": "STEP 2",
+    "icon": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626381566/design_helcoc.svg",
+    "title": "Research & Design",
+    "copy": "Identify key personas for the project. Empathize with end users to identify where the are in the buyers journey. Clarify the messaging and visual design to align with solving the problems end user want to solve.",
+    "altText": "design icon"
+  },
+  {
+    "id": 3,
+    "num": "STEP 3",
+    "icon": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626381554/dancing_bl9rs5.svg",
+    "title": "Launch",
+    "copy": "Before launching it is critical to make sure everything is production ready. All edge cases must be considered. Then comes the fun part letting the world know. But just because we have launched does not mean the work has ended. This where A/B testing can refine the product.",
+    "altText": "dancing icon"
+  }
+]

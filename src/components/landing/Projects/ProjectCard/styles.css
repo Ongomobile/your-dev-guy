@@ -12,7 +12,13 @@
 .accordian {
   margin: 0;
   width: 460px;
+  transition: transform 1s;
 }
+
+.accordian:hover {
+  transform: scale(1.1);
+}
+
 .toggle {
   margin-bottom: -25px;
   padding: 0;
