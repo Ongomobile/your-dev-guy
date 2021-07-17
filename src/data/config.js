@@ -11,7 +11,7 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/ongo-mobile/",
     instagram: "https://instagram.com/yourdevguy",
   },
-  googleAnalyticsID: "257629265",
+  googleAnalyticsID: "G-8FB6B37P6V",
   themeColor: "#2D65AC",
   backgroundColor: "#2D65AC",
   social: {
