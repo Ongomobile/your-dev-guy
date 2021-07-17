@@ -14,11 +14,11 @@
   width: 460px;
   transition: transform 1s;
 }
-
-.accordian:hover {
-  transform: scale(1.1);
+@media (hover: hover) {
+  .accordian:hover {
+    transform: scale(1.05);
+  }
 }
-
 .toggle {
   margin-bottom: -25px;
   padding: 0;

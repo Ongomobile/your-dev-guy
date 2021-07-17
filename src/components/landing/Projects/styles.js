@@ -58,13 +58,19 @@ export const ViewBtn = styled.a`
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 
-  &:hover {
-    transform: scale(1.2);
+  @media (hover: hover) {
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   @media (max-width: 1024px) {
     width: 300px;
     margin-bottom: 10px;
+
+    &:hover {
+      transform: scale(1);
+    }
   }
 
   @media (max-width: 767px) {
