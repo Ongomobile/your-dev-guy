@@ -11,6 +11,19 @@ module.exports = {
     author: config.author,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [config.googleAnalyticsID],
+        pluginConfig: {
+          head: true,
+        },
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+      },
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
@@ -31,13 +44,6 @@ module.exports = {
       options: {
         color: config.themeColor,
         showSpinner: false,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID,
-        head: true,
       },
     },
     `gatsby-transformer-sharp`,
