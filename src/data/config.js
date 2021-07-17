@@ -4,7 +4,8 @@ module.exports = {
   author: "Mike Haslam",
   url: "https://www.yourdevguy.com",
   legalName: "Mike Haslam",
-  defaultDescription: "I’m Mike and I’m a frontend engineer!",
+  defaultDescription:
+    "I’m Mike and I’m a frontend engineer. That can help you launch projects faster, so customers engage sooner.",
   socialLinks: {
     twitter: "https://twitter.com/mhdevguy",
     github: "https://github.com/Ongomobile",
