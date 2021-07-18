@@ -20,7 +20,9 @@ export const Subheadline = styled.h3`
   color: rgba(42, 48, 55, 0.7);
 `
 
-export const ImageWrapper = styled.div``
+export const ImageWrapper = styled.div`
+  margin-bottom: 40px;
+`
 
 export const CardsWrapper = styled.div`
   display: flex;

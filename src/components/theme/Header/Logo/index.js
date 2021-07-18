@@ -8,7 +8,7 @@ export const Logo = () => {
     {
       file(relativePath: { eq: "logo100.png" }) {
         childImageSharp {
-          gatsbyImageData(width: 100, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+          gatsbyImageData(width: 100, placeholder: TRACED_SVG, formats: [AUTO, WEBP, AVIF])
         }
       }
     }

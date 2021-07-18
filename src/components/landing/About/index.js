@@ -1,8 +1,8 @@
 import React from "react"
-import { Wrapper, AboutImg, AboutHeadline, Subheadline, ImageWrapper, CardsWrapper, BtnWrapper } from "./styles"
+import { Wrapper, AboutHeadline, Subheadline, ImageWrapper, CardsWrapper, BtnWrapper } from "./styles"
 import { Container } from "components/common"
 import { AboutCard } from "./AboutCard"
-import myImg from "assets/images/My-pic.svg"
+import { StaticImage } from "gatsby-plugin-image"
 import data from "../../../data/aboutData"
 import { ScheduleCallBtn } from "components/common"
 
@@ -11,7 +11,7 @@ export const About = () => {
   return (
     <Wrapper as={Container} id="about">
       <ImageWrapper>
-        <AboutImg src={myImg} alt="Hi Im mike I am your dev guy" />
+        <StaticImage src="../../../images/My-pic.jpg" width={200} height={200} alt="Hi Im mike I am your dev guy" />
       </ImageWrapper>
       <AboutHeadline>Hi I’m Mike, I Want To Be Your Dev Guy</AboutHeadline>
       <Subheadline>Why Hire Me?</Subheadline>
