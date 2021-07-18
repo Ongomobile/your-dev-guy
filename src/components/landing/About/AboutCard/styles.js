@@ -26,7 +26,7 @@ export const Details = styled.p`
 
 export const CardTitle = styled.h3`
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   color: #2a3037;
   margin-left: 15px;
 
