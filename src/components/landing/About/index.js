@@ -21,7 +21,7 @@ export const About = () => {
           icon={search}
           title={"Attention To Detail"}
           details={
-            "Accessibility is always in the design process. Iterating over designs finding the best consistency, contrast, messaging and many other details makes an impressive design."
+            "Accessibility is always in the design process. Iterating over designs, finding the best consistency, contrast, messaging and many other details makes an impressive design."
           }
           alt={"The details are important to me"}
         />
@@ -37,7 +37,7 @@ export const About = () => {
           icon={heart}
           title={"I Care About You!"}
           details={
-            "I care about what you think. I try my best to offer you the best service I can. I have a Vested Interest in your happiness, with the service I provide. Happy customers tell their friends."
+            "I care about what you think. I try my best to offer you the best service I can. I have a vested Interest in your happiness, with the service I provide. Happy customers tell their friends."
           }
           alt={"You are important to me"}
         />
