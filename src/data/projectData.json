@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Window Counter App Landing Page",
-    "imgNum": 7,
+    "imgNum": 6,
     "codeUrl": "https://github.com/Ongomobile/window-counter-landing-page",
     "siteUrl": "https://www.windowcleaningestimator.com/",
     "projectText": "Window Counter is an app I built with SwiftUI & React Native. It makes estimating easier for window cleaners. Since my first version I have had over 2000 downloads."
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "Oceanfront Hacienda Webflow Site",
-    "imgNum": 6,
+    "imgNum": 7,
     "codeUrl": "https://github.com/Ongomobile/",
     "siteUrl": "https://www.oceanfronthacienda.com/",
     "projectText": "Oceanfront Hacienda is a direct booking website for a vacation rental. It’s built in Webflow with a third party booking engine. The design was created by empathizing with guest experiences."
