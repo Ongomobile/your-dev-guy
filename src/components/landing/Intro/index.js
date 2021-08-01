@@ -15,7 +15,11 @@ export const Intro = () => {
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Developer Handyman</h1>
-          <h2>I can help you launch more projects, so customers are happier sooner.</h2>
+          <h2>
+            I can help you <br />
+            Launch more projects <br />
+            So more customers are happy
+          </h2>
           <CtaBtnsWrapper>
             <Button secondary as={AnchorLink} href="#skills">
               Learn more

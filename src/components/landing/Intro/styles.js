@@ -30,7 +30,7 @@ export const Details = styled.div`
 
   h1 {
     margin-bottom: 2rem;
-    font-size: 36pt;
+    font-size: 40px;
     color: ${({ theme }) => (theme === "light" ? "#2A3037" : "#fff")};
 
     @media (max-width: 960px) {
@@ -38,22 +38,33 @@ export const Details = styled.div`
     }
 
     @media (max-width: 680px) {
-      font-size: 30pt;
+      font-size: 30px;
+    }
+
+    @media (max-width: 680px) {
+      font-size: 25px;
     }
   }
 
   h2 {
     margin-bottom: 2.5rem;
-    font-size: 32pt;
+    font-size: 32px;
+    line-height: 40px;
     font-weight: normal;
     color: ${({ theme }) => (theme === "light" ? "#707070" : "#e6e6e6")};
+
+    @media (max-width: 1170px) {
+      font-size: 25px;
+      line-height: 33px;
+    }
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === "light" ? "unset" : "difference")};
     }
 
-    @media (max-width: 680px) {
-      font-size: 26pt;
+    @media (max-width: 400px) {
+      font-size: 20px;
+      line-height: 28px;
     }
   }
 `
