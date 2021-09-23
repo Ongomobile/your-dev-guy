@@ -77,7 +77,7 @@ export const About = () => {
         <TestimonialCard>
           <TestimonialText>
             Mike helped us with a new web design. He always made us feel like we were on the same team. We knew we had
-            made the right decision in choosing mike to re-brand our business.
+            made the right decision in choosing mike to re-brand our business.He went above and beyond to help.
           </TestimonialText>
           <TestimonialAuthor>
             Lora Spicer<br></br> Oceanfront Hacienda
