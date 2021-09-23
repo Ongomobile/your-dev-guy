@@ -20,6 +20,7 @@ import satisfaction from "../../../assets/icons/Satisfaction-icon.svg"
 import heart from "../../../assets/icons/Heart-icon.svg"
 export const About = () => {
   const myUrl = "https://calendly.com/mike_haslam"
+  const wobble = true
   return (
     <Wrapper as={Container} id="about">
       <ImageWrapper>
@@ -84,7 +85,7 @@ export const About = () => {
         </TestimonialCard>
       </TestimonialWrapper>
       <BtnWrapper>
-        <ScheduleCallBtn url={myUrl} />
+        <ScheduleCallBtn url={myUrl} wobble={wobble} />
       </BtnWrapper>
     </Wrapper>
   )
