@@ -68,7 +68,7 @@ export const About = () => {
         <TestimonialCard>
           <TestimonialText>
             Mike has been very supportive and great at helping to problem solve issues I was having with an app I'm been
-            building. I highly recommend Mike as he is super responsive., easygoing, and fun to work with!
+            building. I highly recommend Mike as he is super responsive,easygoing and fun to work with!
           </TestimonialText>
           <TestimonialAuthor>
             R.J. Schodowski<br></br> Application Developer
@@ -77,7 +77,7 @@ export const About = () => {
         <TestimonialCard>
           <TestimonialText>
             Mike helped us with a new web design. He always made us feel like we were on the same team. We knew we had
-            made the right decision in choosing mike to re-brand our business.He went above and beyond to help.
+            made the right decision in choosing mike to re-brand our business. He went above and beyond.
           </TestimonialText>
           <TestimonialAuthor>
             Lora Spicer<br></br> Oceanfront Hacienda
