@@ -77,4 +77,3 @@ export const TestimonialAuthor = styled.h3`
   color: #2a3037;
 `
 export const BtnWrapper = styled.div``
-//why
