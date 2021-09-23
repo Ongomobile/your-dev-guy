@@ -27,6 +27,7 @@ export const ImageWrapper = styled.div`
 
 export const CardsWrapper = styled.div`
   margin-left: -20px;
+  margin-bottom: 13px;
   display: flex;
   justify-content: space-between;
 
@@ -35,5 +36,44 @@ export const CardsWrapper = styled.div`
     max-width: 680px;
     margin-left: 0;
   }
+`
+export const TestimonialWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-left: -20px;
+  margin-bottom: 50px;
+
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    max-width: 680px;
+    margin-left: 0;
+  }
+`
+export const TestimonialCard = styled.div`
+  padding: 40px 20px 17px;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  background-color: #e3eefd;
+  border-radius: 0px 40px;
+
+  @media (max-width: 1280px) {
+    width: 85%;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 540px) {
+    width: 98%;
+  }
+`
+export const TestimonialText = styled.p`
+  font-size: 20px;
+  color: rgba(42, 48, 55, 0.8);
+`
+export const TestimonialAuthor = styled.h3`
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2a3037;
 `
 export const BtnWrapper = styled.div``

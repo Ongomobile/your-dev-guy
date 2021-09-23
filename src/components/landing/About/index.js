@@ -1,5 +1,16 @@
 import React from "react"
-import { Wrapper, AboutHeadline, Subheadline, ImageWrapper, CardsWrapper, BtnWrapper } from "./styles"
+import {
+  Wrapper,
+  AboutHeadline,
+  Subheadline,
+  ImageWrapper,
+  CardsWrapper,
+  TestimonialWrapper,
+  TestimonialCard,
+  TestimonialText,
+  TestimonialAuthor,
+  BtnWrapper,
+} from "./styles"
 import { Container } from "components/common"
 import { AboutCard } from "./AboutCard"
 import { StaticImage } from "gatsby-plugin-image"
@@ -9,6 +20,7 @@ import satisfaction from "../../../assets/icons/Satisfaction-icon.svg"
 import heart from "../../../assets/icons/Heart-icon.svg"
 export const About = () => {
   const myUrl = "https://calendly.com/mike_haslam"
+  const wobble = true
   return (
     <Wrapper as={Container} id="about">
       <ImageWrapper>
@@ -42,8 +54,38 @@ export const About = () => {
           alt={"You are important to me"}
         />
       </CardsWrapper>
+      <AboutHeadline>Testimonials</AboutHeadline>
+      <TestimonialWrapper>
+        <TestimonialCard>
+          <TestimonialText>
+            Mike is a great guy who puts all their efforts in getting the job done with fantastic results. He never
+            gives up, and if he doesn't know how to do something he will move the earth to find out and solve it.
+          </TestimonialText>
+          <TestimonialAuthor>
+            Bruno Saez Lopez<br></br> UX Designer
+          </TestimonialAuthor>
+        </TestimonialCard>
+        <TestimonialCard>
+          <TestimonialText>
+            Mike has been very supportive and great at helping to problem solve issues I was having with an app I'm been
+            building. I highly recommend Mike as he is super responsive., easygoing, and fun to work with!
+          </TestimonialText>
+          <TestimonialAuthor>
+            R.J. Schodowski<br></br> Application Developer
+          </TestimonialAuthor>
+        </TestimonialCard>
+        <TestimonialCard>
+          <TestimonialText>
+            Mike helped us with a new web design. He always made us feel like we were on the same team. We knew we had
+            made the right decision in choosing mike to re-brand our business.
+          </TestimonialText>
+          <TestimonialAuthor>
+            Lora Spicer<br></br> Oceanfront Hacienda
+          </TestimonialAuthor>
+        </TestimonialCard>
+      </TestimonialWrapper>
       <BtnWrapper>
-        <ScheduleCallBtn url={myUrl} />
+        <ScheduleCallBtn url={myUrl} wobble={wobble} />
       </BtnWrapper>
     </Wrapper>
   )

@@ -27,6 +27,6 @@ export const SkillsWrapper = styled.div`
   }
 `
 export const BtnWrapper = styled.div`
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 18px;
 `
