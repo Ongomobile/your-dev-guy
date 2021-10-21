@@ -10,6 +10,9 @@ module.exports = {
     description: config.defaultDescription,
     author: config.author,
   },
+  flags: {
+    PARALLEL_QUERY_RUNNING: true,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
