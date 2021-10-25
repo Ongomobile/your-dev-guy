@@ -30,7 +30,6 @@ const Home = () => (
       acceptOnScroll={true}
       acceptOnScrollPercentage={50}
       expires={150}
-      debug={true}
     >
       By continuing to browse or by clicking 'OK', you agree to the storing of cookies on your device to enhance your
       site experience and for analytical purposes. To learn more see{" "}
