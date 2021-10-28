@@ -31,8 +31,8 @@ const Home = () => (
       acceptOnScrollPercentage={50}
       expires={150}
     >
-      By continuing to browse or by clicking 'OK', you agree to the storing of cookies on your device to enhance your
-      site experience and for analytical purposes. To learn more see{" "}
+      We use cookies to improve your experience with us. By using our site or dismissing this notice, you accept the use
+      of cookies. To learn more see{" "}
       <Link to="/" activeStyle={{ color: "#57a0ff" }}>
         cookies policy
       </Link>
