@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Navbar from "./Navbar"
-import Hamburger from "./Hamburger"
-import Sidebar from "./Sidebar"
+// import Hamburger from "./Hamburger"
+// import Sidebar from "./Sidebar"
 import { Wrapper } from "./styles"
 
 export const Header = () => {
@@ -10,8 +10,8 @@ export const Header = () => {
   return (
     <Wrapper>
       <Navbar />
-      <Hamburger sidebar={sidebar} toggle={toggle} />
-      <Sidebar sidebar={sidebar} toggle={toggle} />
+      {/* <Hamburger sidebar={sidebar} toggle={toggle} />
+      <Sidebar sidebar={sidebar} toggle={toggle} /> */}
     </Wrapper>
   )
 }
