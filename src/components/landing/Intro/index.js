@@ -14,7 +14,7 @@ export const Intro = () => {
       <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
-          <h1>Developer Handyman</h1>
+          <h1>Developer / Designer</h1>
           <h2>
             I can help you <br />
             Launch more projects <br />

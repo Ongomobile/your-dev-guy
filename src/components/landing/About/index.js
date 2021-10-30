@@ -33,7 +33,7 @@ export const About = () => {
           icon={search}
           title={"Attention To Detail"}
           details={
-            "Accessibility is always in the design process. Iterating over designs, finding the best consistency, contrast, messaging and many other details makes an impressive design."
+            "Pixel perfection is my obsession. Accessibility is always in the design process. Discovering root cause of the problem to be solved. Design for all devices used."
           }
           alt={"The details are important to me"}
         />

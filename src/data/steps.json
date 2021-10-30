@@ -2,9 +2,9 @@
   {
     "id": 1,
     "num": "STEP 1",
-    "icon": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626381540/call-schedule_mwdqgw.svg",
-    "title": "Strategy",
-    "copy": "Discover the core challenges and goals for the project. Determine what objectives are needed to achieve the goals for the project. Determine what the key metrics will be for measuring the success of the project.",
+    "icon": "https://res.cloudinary.com/dnpje4e34/image/upload/v1635619841/Discovery-icon-1_ia5rrh.svg",
+    "title": "Discovery",
+    "copy": "Discover the core challenges and goals for the project. Determine what objectives we need to achieve the goals for the project. Determine what the key metrics will be for measuring the success of the project.",
     "altText": "stragety icon"
   },
   {
@@ -12,7 +12,7 @@
     "num": "STEP 2",
     "icon": "https://res.cloudinary.com/dnpje4e34/image/upload/v1626381566/design_helcoc.svg",
     "title": "Research & Design",
-    "copy": "Identify key personas for the project. Empathize with end users to identify where the are in the buyers journey. Clarify the messaging and visual design to align with solving the problems end user want to solve.",
+    "copy": "Identify key personas for the project. Empathize with end users to identify where they are on the buyer's journey. Clarify the messaging and visual design to align with solving the problems end user wants to solve.",
     "altText": "design icon"
   },
   {
