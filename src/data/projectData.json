@@ -9,11 +9,11 @@
   },
   {
     "id": 1,
-    "title": "Namjai React Firebase Web App",
-    "imgNum": 2,
-    "codeUrl": "https://github.com/Ongomobile/get-mentor-app",
-    "siteUrl": "https://www.namjai.io/",
-    "projectText": "Namjai is a side project. Styled by hand using Styled Components. I used Firebase for authentication and storage. A friend challenged me to create the design in React."
+    "title": "Thailand Explorer Single Page App",
+    "imgNum": 3,
+    "codeUrl": "https://github.com/Ongomobile/thailand-explorer",
+    "siteUrl": "https://www.thailandexplorer.org/",
+    "projectText": "Thailand Explorer was my first single page app. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location API that generates a random location and data. "
   },
   {
     "id": 2,
@@ -33,11 +33,11 @@
   },
   {
     "id": 4,
-    "title": "Thailand Explorer Single Page App",
-    "imgNum": 3,
-    "codeUrl": "https://github.com/Ongomobile/thailand-explorer",
-    "siteUrl": "https://www.thailandexplorer.org/",
-    "projectText": "Thailand Explorer was my first single page app. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location API that generates a random location and data. "
+    "title": "Namjai React Firebase Web App",
+    "imgNum": 2,
+    "codeUrl": "https://github.com/Ongomobile/get-mentor-app",
+    "siteUrl": "https://www.namjai.io/",
+    "projectText": "Namjai is a side project. Styled by hand using Styled Components. I used Firebase for authentication and storage. A friend challenged me to create the design in React."
   },
   {
     "id": 5,
