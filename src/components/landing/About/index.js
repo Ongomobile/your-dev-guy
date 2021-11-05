@@ -83,6 +83,16 @@ export const About = () => {
             Lora Spicer<br></br> Oceanfront Hacienda
           </TestimonialAuthor>
         </TestimonialCard>
+        <TestimonialCard>
+          <TestimonialText>
+            Mike is hands down the first web developer I've hired that I've been satisfied with. I'm a web developer
+            myself, and was really impressed with Mike's process of first clarifying exactly what the deliverable was so
+            he fully understood the job, his communication throughout, as well as completing the work ahead of schedule.
+          </TestimonialText>
+          <TestimonialAuthor>
+            Tom Phillips<br></br> Web Developer
+          </TestimonialAuthor>
+        </TestimonialCard>
       </TestimonialWrapper>
       <BtnWrapper>
         <ScheduleCallBtn url={myUrl} wobble={wobble} />

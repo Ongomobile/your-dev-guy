@@ -40,6 +40,7 @@ export const CardsWrapper = styled.div`
 export const TestimonialWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-left: -20px;
   margin-bottom: 50px;
 
@@ -56,6 +57,7 @@ export const TestimonialCard = styled.div`
   flex-direction: column;
   background-color: #e3eefd;
   border-radius: 0px 40px;
+  margin-bottom: 40px;
 
   @media (max-width: 1280px) {
     width: 85%;

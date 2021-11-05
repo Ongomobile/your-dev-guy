@@ -12,7 +12,7 @@ export const Projects = () => {
       allImageSharp {
         edges {
           node {
-            gatsbyImageData(placeholder: TRACED_SVG, formats: AUTO)
+            gatsbyImageData(placeholder: TRACED_SVG, formats: [AUTO, WEBP, AVIF])
           }
         }
       }
