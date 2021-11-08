@@ -14,17 +14,17 @@ export const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background: #2d65ac;
+  background: #15589d;
 
   &:focus {
     outline: none;
   }
 
   &:hover {
-    color: #2d65ac;
+    color: #15589d;
     background: #fff;
     text-decoration: none;
-    border: 1px solid #2d65ac;
+    border: 1px solid #15589d;
   }
 
   &:disabled {
@@ -62,9 +62,9 @@ export const Button = styled.button`
 
     &:hover {
     color: #fff;
-    background: #2d65ac;
+    background: #15589D;
     text-decoration: none;
-    border: 1px solid #2d65ac;
+    border: 1px solid #15589D;
    }
 	`}
 

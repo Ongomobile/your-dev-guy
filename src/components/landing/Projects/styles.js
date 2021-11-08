@@ -54,7 +54,7 @@ export const ViewBtn = styled.a`
   padding-left: 15px;
   height: 45px;
   width: 160px;
-  background-color: #2d65ac;
+  background-color: #15589d;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 
