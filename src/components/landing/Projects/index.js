@@ -1,10 +1,10 @@
-import React from "react"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { Container } from "components/common"
-import { Wrapper, ProjectsWrapper, ProjectHeadline } from "./styles"
-import { ProjectCard } from "./ProjectCard"
-import { useStaticQuery, graphql } from "gatsby"
-import projects from "../../../data/projectData"
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Container } from 'components/common'
+import { Wrapper, ProjectsWrapper, ProjectHeadline } from './styles'
+import { ProjectCard } from './ProjectCard'
+import { useStaticQuery, graphql } from 'gatsby'
+import projects from '../../../data/projectData'
 
 export const Projects = () => {
   const images = useStaticQuery(graphql`
@@ -12,7 +12,10 @@ export const Projects = () => {
       allImageSharp {
         edges {
           node {
-            gatsbyImageData(placeholder: TRACED_SVG, formats: [AUTO, WEBP, AVIF])
+            gatsbyImageData(
+              placeholder: TRACED_SVG
+              formats: [AUTO, WEBP, AVIF]
+            )
           }
         }
       }
@@ -20,8 +23,8 @@ export const Projects = () => {
   `)
 
   return (
-    <Wrapper as={Container} id="work">
-      <ProjectHeadline>Projects</ProjectHeadline>
+    <Wrapper as={Container} id='work'>
+      <ProjectHeadline>Recent Projects</ProjectHeadline>
       <ProjectsWrapper>
         {projects.map((project) => (
           <ProjectCard

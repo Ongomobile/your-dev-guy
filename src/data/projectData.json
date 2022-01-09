@@ -9,14 +9,6 @@
   },
   {
     "id": 1,
-    "title": "Thailand Explorer Single Page App",
-    "imgNum": 3,
-    "codeUrl": "https://github.com/Ongomobile/thailand-explorer",
-    "siteUrl": "https://www.thailandexplorer.org/",
-    "projectText": "Thailand Explorer was my first single page app. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location API that generates a random location and data. "
-  },
-  {
-    "id": 2,
     "title": "Groovy Hats Shopify Store",
     "imgNum": 4,
     "codeUrl": "https://github.com/Ongomobile/gatsby-shopify-starter-1",
@@ -24,7 +16,7 @@
     "projectText": "Groovy Hats is a Headless Shopify Store. It’s built with React and Gatsby. It utilizes the Shopify GraphQL API. This is my first store of many. Shopify is such a pleasure to work with."
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Window Cleaning Landing Page",
     "imgNum": 5,
     "codeUrl": "https://github.com/Ongomobile/lbww",
@@ -32,15 +24,7 @@
     "projectText": "Long Beach Window Washing landing page built in Webflow. Solves a problem for homeowners, by helping them quickly get a price and schedule a window cleaning service. "
   },
   {
-    "id": 4,
-    "title": "Namjai React Firebase Web App",
-    "imgNum": 2,
-    "codeUrl": "https://github.com/Ongomobile/get-mentor-app",
-    "siteUrl": "https://www.namjai.io/",
-    "projectText": "Namjai is a side project. Styled by hand using Styled Components. I used Firebase for authentication and storage. A friend challenged me to create the design in React."
-  },
-  {
-    "id": 5,
+    "id": 3,
     "title": "Oceanfront Hacienda Webflow Site",
     "imgNum": 7,
     "codeUrl": "https://github.com/Ongomobile/",
