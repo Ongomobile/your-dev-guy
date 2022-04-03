@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Window Counter App Landing Page",
-    "imgNum": 5,
+    "imgNum": 6,
     "codeUrl": "https://github.com/Ongomobile/window-counter-landing-page",
     "siteUrl": "https://www.windowcleaningestimator.com/",
     "projectText": "Window Counter is an app I built with SwiftUI & React Native. It makes estimating easier for window cleaners. Since my first version I have had over 2000 downloads."
@@ -10,7 +10,7 @@
   {
     "id": 1,
     "title": "Thailand Explorer Single Page App",
-    "imgNum": 2,
+    "imgNum": 3,
     "codeUrl": "https://github.com/Ongomobile/thailand-exp-vue",
     "siteUrl": "https://www.thailandexplorer.org/",
     "projectText": "Thailand Explorer is built with Vue.js. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location API that generates a random location and data. "
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "title": "Groovy Hats Shopify Store",
-    "imgNum": 3,
+    "imgNum": 4,
     "codeUrl": "https://github.com/Ongomobile/gatsby-shopify-starter-1",
     "siteUrl": "https://groovy-hats.netlify.app/",
     "projectText": "Groovy Hats is a Headless Shopify Store. It’s built with React and Gatsby. It utilizes the Shopify GraphQL API. This is my first store of many. Shopify is such a pleasure to work with."
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "title": "Window Cleaning Landing Page",
-    "imgNum": 4,
+    "imgNum": 5,
     "codeUrl": "https://github.com/Ongomobile/lbww",
     "siteUrl": "https://longbeachwindowwashing.com/",
     "projectText": "Long Beach Window Washing landing page built in Webflow. Solves a problem for homeowners, by helping them quickly get a price and schedule a window cleaning service. "
@@ -34,7 +34,7 @@
   {
     "id": 4,
     "title": "Oceanfront Hacienda Webflow Site",
-    "imgNum": 6,
+    "imgNum": 7,
     "codeUrl": "https://github.com/Ongomobile/",
     "siteUrl": "https://www.oceanfronthacienda.com/",
     "projectText": "Oceanfront Hacienda is a direct booking website for a vacation rental. It’s built in Webflow with a third party booking engine. The design was created by empathizing with guest experiences."
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "title": "Vue Window Counter App ",
-    "imgNum": 7,
+    "imgNum": 2,
     "codeUrl": "https://github.com/Ongomobile/vue-window-counter-app",
     "siteUrl": "https://window-counter.netlify.app/",
     "projectText": "This is a simplified vesrion of my Window Counter Mobile App this one is built with Vue js. It's deployed on Netlify"
