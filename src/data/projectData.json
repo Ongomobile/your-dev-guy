@@ -11,7 +11,7 @@
     "id": 1,
     "title": "Thailand Explorer Single Page App",
     "imgNum": 3,
-    "codeUrl": "https://github.com/Ongomobile/thailand-explorer",
+    "codeUrl": "https://github.com/Ongomobile/thailand-exp-vue",
     "siteUrl": "https://www.thailandexplorer.org/",
     "projectText": "Thailand Explorer is built with Vue.js. The data from WikiVoyage, Google Maps & YouTube, API’s are based on a custom location API that generates a random location and data. "
   },
