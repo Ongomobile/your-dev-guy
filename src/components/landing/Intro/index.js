@@ -21,7 +21,7 @@ export const Intro = () => {
             Help customers be happy?
           </h2>
           <CtaBtnsWrapper>
-            <Button secondary as={AnchorLink} href='#skills'>
+            <Button secondary as={AnchorLink} href='#about'>
               Learn more
             </Button>
             <ScheduleCallBtn url={myUrl} />
