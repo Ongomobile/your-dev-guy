@@ -1,15 +1,15 @@
-import React from "react"
-import { Container } from "components/common"
-import { Wrapper, SkillsWrapper, SkillsHeadline, BtnWrapper } from "./styles"
-import steps from "../../../data/steps"
-import { SkillsCard } from "./SkillsCard"
-import { ScheduleCallBtn } from "components/common"
+import React from 'react'
+import { Container } from 'components/common'
+import { Wrapper, SkillsWrapper, SkillsHeadline, BtnWrapper } from './styles'
+import steps from '../../../data/steps'
+import { SkillsCard } from './SkillsCard'
+import { ScheduleCallBtn } from 'components/common'
 
 export const Skills = () => {
-  const myUrl = "https://calendly.com/mike_haslam"
-  const wobble = true
+  const myUrl = 'https://calendly.com/mike_haslam'
+  const wobble = false
   return (
-    <Wrapper as={Container} id="skills">
+    <Wrapper as={Container} id='skills'>
       <SkillsHeadline>3 Step Plan For Customer Engagement</SkillsHeadline>
       <SkillsWrapper>
         {steps.map((step) => (
